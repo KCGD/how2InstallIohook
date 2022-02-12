@@ -1,0 +1,13 @@
+get the required packages: sudo apt install nodejs npm xcb libxcb-xkb-dev x11-xkb-utils libx11-xcb-dev libxkbcommon-x11-dev libxtst-dev
+
+get nvm: curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+install node 12.18.0: nvm install 12.18.0, nvm use 12.18.0
+
+1. go into node_modules
+2. git clone https://github.com/wilix-team/iohook.git
+3. npm i
+4. npm run build
+5. replace Release directory in builds folder with the generated one in build folder
+
+(MAKE SURE DIRECTORY HAS NO SPACES)
