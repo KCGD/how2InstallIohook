@@ -1,4 +1,4 @@
-get the required packages: sudo apt install nodejs npm xcb libxcb-xkb-dev x11-xkb-utils libx11-xcb-dev libxkbcommon-x11-dev libxtst-dev
+get the required packages: sudo apt install build-essential nodejs npm xcb libxcb-xkb-dev x11-xkb-utils libx11-xcb-dev libxkbcommon-x11-dev libxtst-dev libpng-dev
 
 get nvm: curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
