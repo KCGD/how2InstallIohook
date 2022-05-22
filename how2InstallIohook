@@ -15,8 +15,8 @@ git clone https://github.com/wilix-team/iohook.git && \
 cd iohook && \
 npm i && \
 npm run build && \
-rm -rv ./builds/node-v93-linux-x64/build/Release && \
-cp -rv ./build/Release ./builds/node-v93-linux-x64/build/Release && \
+rm -rv ./builds/node-v72-linux-x64/build/Release && \
+cp -rv ./build/Release ./builds/node-v72-linux-x64/build/Release && \
 echo done
 
 (MAKE SURE DIRECTORY HAS NO SPACES)
