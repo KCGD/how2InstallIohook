@@ -10,4 +10,13 @@ install node 12.18.0: nvm install 12.18.0, nvm use 12.18.0
 4. npm run build
 5. replace Release directory in builds folder with the generated one in build folder
 
+summary (once in node_modules): 
+git clone https://github.com/wilix-team/iohook.git && \
+cd iohook && \
+npm i && \
+npm run build && \
+rm -rv ./builds/node-v93-linux-x64/build/Release && \
+cp -rv ./build/Release ./builds/node-v93-linux-x64/build/Release && \
+echo done
+
 (MAKE SURE DIRECTORY HAS NO SPACES)
